@@ -1,0 +1,164 @@
+/*公共部分*/
+.comWidth{width: 1000px; margin-left: auto; margin-right: auto; }
+.leftArea{float: left; } 
+.rightArea{float: right; }
+.hide{display: none;}
+.show{display: block;}
+.clearfix{clear: both;}
+/* topBar */
+.topbar{height:31px;background-color:#f7f7f7; line-height: 31px; }
+.collection{background: url(../img/collection.jpg) left center no-repeat; 
+	padding-left: 19px; font-weight: bold; }
+.topBar a:hover{color:red; }
+/* logo */
+.logoBar{height: 85px; background-color: #1D7AD9; }
+.logo{padding-left: 41px; padding-top: 13px; }
+.search_box{width: 430px; margin-top: 23px; margin-left: 185px; }
+.search_text{width: 350px; height: 35px; padding:0 5px; background-color: #fff; 
+line-height: 35px\9;/* css hack \9代表所有的IE浏览器 */ }
+.search_btn{width: 70px; height: 35px; font-size: 14px; font-family: "微软雅黑";
+ background-color: #FF8C00; color: #fff; }
+/*购物车*/
+.shopCar{width:145px; height: 35px; background-color: #FF8C00; margin-top: 23px; 
+	font:14px/35px "微软雅黑"; color: #fff; margin-right: 59px; display: inline;}
+.shopText{/* font-size: 14px; font-family: "微软雅黑"; line-height: 35px; */ 
+width: 87px; height: 100%; border-right: 1px solid #E27A00; color: #fff;
+background:url(../img/shopitem.jpg) 10px center no-repeat; text-indent: 40px;/*首行缩进*/ }
+.shopNum{width:27px; height: 100%; border-left: 1px solid #FF9C01; 
+background:url(../img/list.jpg) 33px center no-repeat; text-align: right; padding-right: 29px;/*向右对齐是为了如果数字增长可以往左边增长*/ }
+/*导航栏*/
+.navBox{height: 35px; background-color: #1369C0; color: #fff; }
+.shopClass{width: 190px; height: 100%; position: relative; }
+.shopClass h3{text-align: center; line-height: 35px; }
+.shopClass h3:hover{cursor: pointer;}
+.shopClass i{width: 11px; height: 7px; overflow: hidden;
+ background:url(../img/sj.jpg) left center no-repeat; 
+ display: inline-block; margin-left: 11px; }
+.nav{line-height: 35px; }
+.nav,.shopClass h3{font-family: "Microsoft YaHei","微软雅黑"; }
+.nav li{float: left;}
+.nav a{height: 35px; display: inline-block; padding:0 40px; 
+	color: #fff;font-size: 12px;}
+.nav .active{background-color: #4593FD; }
+/*商品弹出列表*/
+.shopClass_show{background-color: #4593FD; position: absolute; left: 0; 
+	top:35px; width: 100%;padding-bottom: 1px; }
+.shopClass_show .b{font:14px/1 "微软雅黑"; }
+.shopClass_show a{color: #fff; }
+.shopClass_item{padding:13px 10px; border-bottom: 1px solid #3487F2;
+ border-top: 1px solid #5AA1FE; line-height: 16px;}
+ .shopClass_item a:hover{text-decoration: underline;}
+.shopClass_item dt{height: 21px;line-height: 1;overflow: hidden;/* 前两个是处理IE6的小bug */ background:url(../img/next.jpg) right center no-repeat; }
+.shopClass_item .aLink{width: 48px;height: 20px; 
+	background:url(../img/bgcolor.jpg) left center no-repeat; display: inline-block;
+text-align: center;line-height: 20px; text-decoration: underline;}
+/*shopClass_item active的状态*/
+.shopClass_active{background-color: #fff; border-left: 1px solid #4593FD;}
+.shopClass_active a{color: #000;}
+.shopClass_active .aLink{color: #fff;text-decoration:none;background:url(../img/bgcolor.png) left center no-repeat;}
+.shopClass_active dt{background:none;}
+/*弹出的菜单*/
+.shopClass_list{
+	width: 650px;border:1px solid #ccc;
+	position: absolute;left:190px;top:35px;
+	z-index: 3;background-color: #fff;
+}
+.shopList_item dt{color:#4B87D9;font-weight: bold; height: 24px;line-height: 24px}
+.shopList_item dd{padding-left: 68px;margin-top: -24px;line-height: 24px}
+.shopList_item dd a{margin-right:12px;}
+.shopList_item dd a:hover{text-decoration: underline;}
+.shopList_item{padding:10px 0; border-bottom: 1px solid #ccc}
+.shopClass_count{padding: 0 20px}
+.shopList_links a{color: #fff;background-color: #2785E6;height: 26px;line-height: 26px;
+font-size: 12px;display: inline-block; padding:0 10px 0 8px; margin-right: 10px;}
+.shopList_links span{width: 11px;height: 7px; background:url(../img/next.jpg) left center no-repeat;
+display: inline-block;margin-left: 10px;}
+.shopList_links{padding:15px 0;}
+
+/*footer部分*/
+.footer{text-align: center;background-color: #D4D4D4;
+line-height: 24px;padding:50px 0;margin-top: 40px;}
+.footer i{font-style:normal;margin: 0 5px;}
+.footer a{color: #000;}
+.footer a:hover{color: #F60}
+.web{padding-top: 30px;}
+.web img{margin:0 12px;}
+
+/*产品分类*/
+.products{margin-top: 17px;}
+.products .leftArea{width: 190px;}
+.products .rightArea{width: 800px;margin-left:10px;}
+/*产品分类导航*/
+.leftNav{background-color: #F3F3F3;border:1px solid #D7D7D7;}
+.nav_cont h3{font-family: "微软雅黑";font-size: 14px;}
+.nav_title{text-align: center;font-size: 16px;height: 34px;line-height: 34px;border-bottom: 1px solid #D7D7D7;
+font-family: "宋体"; }
+.nav_cont h3{font-size: 12px;height: 30px;line-height: 30px;}
+.nav_cont{padding: 0 18px 4px;border-bottom: 1px dotted #D7D7D7;margin-bottom: -1px;}
+.navCont_list{line-height: 25px;}
+.navCont_list li{width:auto;padding-left:8px;}
+.navCont_list li a:hover{color:red;}
+/*产品标题*/
+.products_title{height: 34px;border-bottom: 2px solid #ccc;margin-top: 10px;}
+.products_title h3{width: 170px;border-bottom: 2px solid #096DBA;height: 34px;line-height: 34px;padding-left: 10px;
+font-size: 16px;margin-bottom: -2px;position: relative;/*后面两个变动针对IE6错位现象*/}
+/*商品列表*/
+.products_list{padding-left: 0.5%}
+.item{width: 33.3%;float: left;margin-bottom: 15px;height: 300px;}
+.img_item{height: 170px;text-align: center;}
+.img_item img{height: 170px;}
+.item p{line-height: 20px;}
+.item p{width: 90%;margin: 0 auto;}
+.item p:first-of-type{margin-top: 10px;}
+.item a{color: #000;}
+.item a:hover{color: red;}
+.money{color: #D4105A;font-weight: bold;padding-top: 10px;}
+.item .addCar{border: 1px solid #C3D5E7;padding:5px;margin-top: 12px;
+	display: inline-block;color:#377AC0; }
+.money a{color: #1D8EE3;padding-left: 10px;font-weight: normal;}
+.money span{color: #000;font-weight: normal;}
+.addCar i{padding-right: 5px;color:#3C78C0;}
+/*筛选部分*/
+.screening{border-bottom: 1px solid #D9D9D9;}
+.screening dt{line-height: 32px;width: 74px;text-align: right;float: left;margin-right: 42px;}
+.limit{width: 55px;float: left;line-height: 32px;}
+.screening .active{background-color: #1D7AD9;color: #fff;}
+.screening a{padding:2px;}
+.screening a:hover{color: red;}
+.screening .more:hover{text-decoration: underline;color:#000;}
+.more{float: left;width: 35px;line-height: 32px;}
+.screening_list.more{line-height: 32px;float:right;width: 10px;}
+.screening_list a{color: #1D7AD9;padding:2px; width: 20%;display: block;float: left;}
+.screening_list{line-height: 32px;width: 570px;float: left;}
+.special a{width: 30%;}
+.special1 a{width: 17%;}
+.special1 a:nth-child(4){margin-left: 25px;}
+.screening_more,
+.screening_more dt {height: 40px;line-height: 40px;}
+.screening_more select{border:1px solid #DCDCDC;height:25px;margin:0 11px 0 0; ;}
+.addInfo{height: 31px;border:1px solid #D9D9D9;background-color: #F5F5F5;margin-top: 17px;
+line-height: 31px;margin-bottom: 15px;}
+.addInfo .address{padding-left: 12px;font-size: 12px;}
+.addInfo .address select{border:1px solid #DCDCDC;height: 21px;margin-left:5px;padding-left:2px}
+.inventory{float: right;padding-right: 83px;}
+.inventory span{padding-left: 13px;}
+.inventory em{font-style: normal;color: #D70054;font-size: 14px;font-weight: bold;}
+.check input{vertical-align: middle;}
+/*翻页部分*/
+.page{text-align: center;display: inline-block;width: 100%;margin-top: 40px;margin-bottom: 10px;}
+.page a{border: 1px solid #DDDDDD;padding:8px 15px;margin-right: 5px;}
+.page span{padding:0 10px;line-height: 30px;height: 30px;}
+.page .button{background-color: #E8E8E8;border: 1px solid #DDDDDD;padding:8px 10px;}
+.page a,.page span,.page input,.page p{float: left;}
+.page input{border: 1px solid #DDDDDD;padding:8px 10px;width: 20px;text-align: center;}
+.page p{line-height: 30px;height: 30px;padding-right: 3px;}
+.page p:first-of-type{margin-left:20px;}
+.page .on{background-color: #2266BB;color: #fff;}
+/*左侧广告*/
+.leftList{width: 188px;border: 1px solid #D7D7D7;}
+.left_item{margin-top: 10px;height: 75px;padding-right: 15px}
+.leftImg{float: left;height: 70px;margin-right: 3px;}
+.left_item a{padding:10px 0 3px 0;color: #000;}
+.left_item a:hover{color: red;}
+
+

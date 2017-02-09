@@ -1,0 +1,47 @@
+/*公共部分*/
+.comWidth{width: 1000px; margin-left: auto; margin-right: auto;}
+.smallWidth{width: 632px;margin:0 auto;height: 100%;}
+.leftArea{float: left; } 
+.rightArea{float: right; }
+.rightArea a{color: #656565}
+.rightArea a:hover,.leftArea a:hover{text-decoration: none;}
+.hide{display: none;}
+.show{display: block;}
+.clearfix{clear: both;}
+body{font-family: "微软雅黑"}
+/* topBar */
+.topbar{height:31px;background-color:#f7f7f7; line-height: 31px; }
+.collection{background: url(../img/collection.jpg) left center no-repeat; 
+	padding-left: 19px; font-weight: bold;color: #656565}
+.topBar a:hover{color:red; }
+/* logo */
+.logoBar{height: 85px; background-color: #1D7AD9; }
+.logo{ padding-top: 13px; }
+.title{color: #fff;float:left;font-size: 22px;line-height: 80px;margin-left: 20px;padding-top: 5px;}
+ /*footer部分*/
+.footer{text-align: center;background-color: #D4D4D4;
+line-height: 24px;padding:50px 0;margin-top: 40px;}
+.footer i{font-style:normal;margin: 0 5px;}
+.footer a{color: #000;}
+.footer a:hover{color: #F60}
+.web{padding-top: 30px;}
+.web img{margin:0 12px;}
+/*登陆部分*/
+.register{width: 632px;border: 1px solid #ccc;margin:0px auto;padding-top:42px;margin-top: 20px;}
+.login{background-color: #7CBE56;width: 115px;height: 31px;color: #fff;font-size: 18px;text-align: center;
+display: block;line-height: 31px;float: right;margin-right: 41px;border-radius:0 0 5px 5px;}
+.login:hover{text-decoration: underline;}
+.register table{margin:20px auto;}
+.format{margin-bottom: 30px;display: block;}
+.star{font-style: normal;color: red;padding-right: 5px;font-weight: bold;}
+.title_text{width: 90px;text-align: right;padding-right: 15px;;font-size: 14px;}
+.type {border: 1px solid #ccc;width: 239px;margin-top: 2px;height: 33px;
+	padding-left: 2px;border-right: 0px;}
+.format .fa { border: 1px solid #ccc; height: 28px; width: 31px; display: inline-block; border-left: 0px; text-align: center;
+ padding-top: 5px; vertical-align: bottom;color: #DBDBDB }
+ .protocol{text-align: center;line-height: 16px;}
+ .protocol input{vertical-align: middle;}
+ .protocol a{color: #005AA0}
+ .protocol a:hover{text-decoration: underline;}
+ .submit{width: 274px; height: 37px;}
+ .button{width: 389px; margin:0 auto;text-align: right;padding-right: 30px;margin-bottom: 40px;}

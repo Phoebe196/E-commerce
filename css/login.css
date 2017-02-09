@@ -1,0 +1,47 @@
+/*公共部分*/
+.comWidth{width: 1000px; margin-left: auto; margin-right: auto;}
+.smallWidth{width: 462px;margin:0 auto;height: 100%;}
+.leftArea{float: left; } 
+.rightArea{float: right; }
+.rightArea a{color: #656565}
+.rightArea a:hover,.leftArea a:hover{text-decoration: none;}
+.hide{display: none;}
+.show{display: block;}
+.clearfix{clear: both;}
+body{font-family: "微软雅黑"}
+/* topBar */
+.topbar{height:31px;background-color:#f7f7f7; line-height: 31px; }
+.collection{background: url(../img/collection.jpg) left center no-repeat; 
+	padding-left: 19px; font-weight: bold;color: #656565}
+.topBar a:hover{color:red; }
+/* logo */
+.logoBar{height: 85px; background-color: #1D7AD9; }
+.logo{ padding-top: 13px; }
+.title{color: #fff;float:left;font-size: 22px;line-height: 80px;margin-left: 20px;padding-top: 5px;}
+ /*footer部分*/
+.footer{text-align: center;background-color: #D4D4D4;
+line-height: 24px;padding:50px 0;margin-top: 40px;}
+.footer i{font-style:normal;margin: 0 5px;}
+.footer a{color: #000;}
+.footer a:hover{color: #F60}
+.web{padding-top: 30px;}
+.web img{margin:0 12px;}
+/*登陆部分*/
+.login{width: 460px;border: 1px solid #ccc;margin:0px auto;padding-top:42px;margin-top: 20px;}
+.format{width: 306px;margin:0 auto;color: #555555;margin-bottom: 10px;}
+.type {border: 1px solid #ccc;width: 270px;margin-top: 2px;height: 33px;padding-left: 2px;border-right: 0px;}
+.format i { border: 1px solid #ccc; height: 28px; width: 30px; display: inline-block; border-left: 0px; text-align: center;
+ padding-top: 5px; vertical-align: bottom;color: #DBDBDB }
+.checkbox{margin:25px auto;}
+.checkbox input{vertical-align: bottom;}
+.checkbox label{padding-right: 10px;}
+.checkbox a:hover{color: red;}
+.button{width: 306px; height: 37px;margin:0 auto;display: block;}
+.o_login{margin-top: 35px;}
+.o_login p{line-height: 20px;}
+.o_login em{font-style: normal;padding:0 2px;}
+.o_login a:hover{color: red;}
+.o_login select{color:#555555 }
+.register{background-color: #7CBE56;width: 115px;height: 31px;color: #fff;font-size: 18px;text-align: center;
+display: block;line-height: 31px;float: right;margin-right: 41px;border-radius:0 0 5px 5px;}
+.register:hover{text-decoration: underline;}
