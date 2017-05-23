@@ -5,6 +5,7 @@
 .hide{display: none;}
 .show{display: block;}
 .clearfix{clear: both;}
+body{min-width: 1000px;}
 /* topBar */
 .topbar{height:31px;background-color:#f7f7f7; line-height: 31px; }
 .collection{background: url(../img/collection.jpg) left center no-repeat; 

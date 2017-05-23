@@ -1,96 +1,98 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>购物车结算</title>
-	<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="../css/reset.css">
-	<link rel="stylesheet" type="text/css" href="../css/register.css">
-	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>购物车结算</title>
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/register.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-	<!-- 公共页头部 -->
-	<div class="headerBar">
-		<!-- 收藏及登录部分 -->
-		<div class="topBar">
-			<div class="comWidth">
-				<div class="leftArea">
-					<a href="#" class="collection">收藏慕课</a>
-				</div>
-				<div class="rightArea">
-					欢迎来到慕课网！
-					<a href="#">[登录]</a>
-					<a href="#">[免费注册]</a>
-				</div>
-			</div>
-		</div>
-		<!-- 标签及搜索框部分 -->
-		<div class="logoBar">
-			<div class="smallWidth clearfix">
-				<div class="logo fl">
-					<a href="#"><img src="../img/logo.jpg" alt="慕课网"></a>
-				</div>
-				<p class="title">欢迎注册</p>
-			</div>
-		</div>
-	</div>		
-	<!-- 中间部分 -->
-	<div class="smallWidth clearfix">
-		<div class="register">
-			<form action="" method="get" accept-charset="utf-8">
-				<table>
-					<tr class="format">
-						<td class="title_text"><i class="star">*</i>
-							账户名: </td>
-							<td><input type="text" name="username" placeholder="请输入你的用户名" class="type"><i class="fa fa-user-o fa-2x"></i></td>
-						</tr>
-						<tr class="format">
-							<td class="title_text"><i class="star">*</i>
-								请设置密码: </td>
-								<td><input type="password" name="username"  class="type"><i class="fa fa-unlock-alt fa-2x"></i></td>
-							</tr>
-							<tr class="format">
-								<td class="title_text"><i class="star">*</i>
-									请确认密码: </td>
-									<td><input type="password" name="username" class="type"><i class="fa fa-unlock-alt fa-2x"></i></td>
-								</tr>
-								<tr class="format">
-									<td class="title_text"><i class="star">*</i>
-										邮箱: </td>
-										<td><input type="text" name="username"  class="type"><i class="fa fa-envelope fa-2x"></i></td>
-									</tr>
-									<tr class="format">
-										<td class="title_text"><i class="star">*</i>
-											地址: </td>
-											<td><input type="text" name="username"  class="type"><i class="fa fa-home fa-2x"></i></td>
-										</tr>
-										<tr class="protocol">
-											<td>
-												<input type="checkbox" name="agree" id="agree">
-												<label for="agree">我已阅读并同意<a href="#" >《用户注册协议》</a></label>
-											</td>
-										</tr>
-									</table>
-									<div class="button">
-										<button type="submit" class="submit">提交</button>
-									</div>
+  <!-- 公共页头部 -->
+  <div class="headerBar">
+    <!-- 收藏及登录部分 -->
+    <div class="topBar">
+      <div class="comWidth">
+        <div class="leftArea">
+          <a href="javascript:void(0)" onclick="JavaScript:AddFavorite(window.location,document.title)" class="collection">收藏慕课</a>
+        </div>
+        <div class="rightArea">
+          欢迎来到慕课网！
+          <a href="login.html">[登录]</a>
+          <a href="register.html">[免费注册]</a>
+        </div>
+      </div>
+    </div>
+    <!-- 标签及搜索框部分 -->
+    <div class="logoBar">
+      <div class="smallWidth clearfix">
+        <div class="logo fl">
+          <a href="../index.html"><img src="../img/logo.jpg" alt="慕课网"></a>
+        </div>
+        <p class="title">欢迎注册</p>
+      </div>
+    </div>
+  </div>
+  <!-- 中间部分 -->
+  <div class="smallWidth clearfix">
+    <div class="register">
+      <form action="" method="get" accept-charset="utf-8">
+        <table>
+          <tr class="format">
+            <td class="title_text"><i class="star">*</i> 账户名: </td>
+            <td>
+              <input type="text" name="username" placeholder="请输入你的用户名" class="type"><i class="fa fa-user-o fa-2x"></i></td>
+          </tr>
+          <tr class="format">
+            <td class="title_text"><i class="star">*</i> 请设置密码: </td>
+            <td>
+              <input type="password" name="username" class="type"><i class="fa fa-unlock-alt fa-2x"></i></td>
+          </tr>
+          <tr class="format">
+            <td class="title_text"><i class="star">*</i> 请确认密码: </td>
+            <td>
+              <input type="password" name="username" class="type"><i class="fa fa-unlock-alt fa-2x"></i></td>
+          </tr>
+          <tr class="format">
+            <td class="title_text"><i class="star">*</i> 邮箱: </td>
+            <td>
+              <input type="text" name="username" class="type"><i class="fa fa-envelope fa-2x"></i></td>
+          </tr>
+          <tr class="format">
+            <td class="title_text"><i class="star">*</i> 地址: </td>
+            <td>
+              <input type="text" name="username" class="type"><i class="fa fa-home fa-2x"></i></td>
+          </tr>
+          <tr class="protocol">
+            <td>
+              <input type="checkbox" name="agree" id="agree">
+              <label for="agree">我已阅读并同意<a href="#">《用户注册协议》</a></label>
+            </td>
+          </tr>
+        </table>
+        <div class="button">
+          <button type="submit" class="submit">提交</button>
+        </div>
+      </form>
+    </div>
+    <a href="login.html" class="login" target="_blank">免费登录&gt;&gt;</a>
+  </div>
+  <!-- 公共页脚部分 -->
+  <div class="footer">
+    <p><a href="#">慕课简介</a><i>|</i><a href="#">慕课公告</a><i>|</i><a href="#">招纳贤士</a><i>|</i><a href="#">联系我们</a><i>|</i>客服热线：400-675-1234</p>
+    <p>Copyright &copy; 2006 - 2014 慕课版权所有&nbsp;&nbsp;&nbsp;京ICP备09037834号&nbsp;&nbsp;&nbsp;京ICP证B1034-8373号&nbsp;&nbsp;&nbsp;某市公安局XX分局备案编号：123456789123</p>
+    <p class="web">
+      <a href="#"><img src="../img/faith.jpg" alt="logo"></a>
+      <a href="#"><img src="../img/faith.jpg" alt="logo"></a>
+      <a href="#"><img src="../img/faith.jpg" alt="logo"></a>
+      <a href="#"><img src="../img/faith.jpg" alt="logo"></a>
+    </p>
+  </div>
+  <script src="../js/collection.js"></script>
+</body>
 
-								</form>
-
-							</div>
-							<a href="login.html" class="login" target="_blank">免费登录&gt;&gt;</a>
-						</div>
-
-
-						<!-- 公共页脚部分 -->
-						<div class="footer">
-							<p><a href="#">慕课简介</a><i>|</i><a href="#">慕课公告</a><i>|</i><a href="#">招纳贤士</a><i>|</i><a href="#">联系我们</a><i>|</i>客服热线：400-675-1234</p>
-							<p>Copyright &copy; 2006 - 2014 慕课版权所有&nbsp;&nbsp;&nbsp;京ICP备09037834号&nbsp;&nbsp;&nbsp;京ICP证B1034-8373号&nbsp;&nbsp;&nbsp;某市公安局XX分局备案编号：123456789123</p>
-							<p class="web"><a href="#"><img src="../img/faith.jpg" alt="logo"></a>
-								<a href="#"><img src="../img/faith.jpg" alt="logo"></a>
-								<a href="#"><img src="../img/faith.jpg" alt="logo"></a>
-								<a href="#"><img src="../img/faith.jpg" alt="logo"></a></p>
-							</div>
-						</body>
-						</html>
+</html>
